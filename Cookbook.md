@@ -26,7 +26,7 @@
 
 
 
-**Read JSON file:**
+**Read JSON file**
 
 	def getConfig(configKey):
 		configsFile = open('configs/config.json')
@@ -36,3 +36,7 @@
 			return None
 		return json_data[configKey]
 
+**Write To File**
+	indexHtml = indexHtml.format(chartsHTML)
+	with open(self.CHARTS_DIRECTORY+"index.html" ,"w") as file:
+		file.write(str(indexHtml))
