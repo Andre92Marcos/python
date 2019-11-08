@@ -41,3 +41,13 @@
 	indexHtml = indexHtml.format(chartsHTML)
 	with open(self.CHARTS_DIRECTORY+"index.html" ,"w") as file:
 		file.write(str(indexHtml))
+
+**Sort A List**
+
+	#modifies the original list
+	mylist = ["b", "C", "A"]
+	mylist.sort()
+
+	#returns a copy of the original list sorted
+	for x in sorted(mylist):
+    print x
