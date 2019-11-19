@@ -50,4 +50,6 @@
 
 	#returns a copy of the original list sorted
 	for x in sorted(mylist):
-    print x
+	print x
+
+	ticksSortedByQuoteVolume = sorted(ticks, key=lambda x: Decimal(x.quoteVolume))
