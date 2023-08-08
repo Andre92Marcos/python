@@ -53,3 +53,9 @@
 	print x
 
 	ticksSortedByQuoteVolume = sorted(ticks, key=lambda x: Decimal(x.quoteVolume))
+
+**Start a server**
+
+	python -m http.server <server_port>
+
+	allows to then run things like wget to download files from the directory where the server was started
