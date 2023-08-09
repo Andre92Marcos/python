@@ -59,3 +59,7 @@
 	python -m http.server <server_port>
 
 	allows to then run things like wget to download files from the directory where the server was started
+
+**Spawn a functional shell**
+
+	python3 -c 'import pty;pty.spawn("/bin/bash")'
