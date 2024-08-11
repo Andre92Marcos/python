@@ -36,3 +36,10 @@ Simply do:
 	deactivate
 
 And now the env is deactivated. You can do pip list again to confirm.
+
+
+## Delete virtual env
+
+Simply just remove the dir that contains the virtual env:
+
+	rm -rf <path_to_virtual_env>
