@@ -43,3 +43,29 @@ And now the env is deactivated. You can do pip list again to confirm.
 Simply just remove the dir that contains the virtual env:
 
 	rm -rf <path_to_virtual_env>
+
+
+## Using pyenv and virtualenv
+
+Using the pyenv-virtualenv plugin we easily choose which python version to use on our virtualenvs,
+
+First create a virtualenv in pyenv using the plugin:
+
+	pyenv virtualenv <python_version_installed_with_pyenv> <env_name>
+
+This will create the virtual env in the pyenv root dir.
+
+We can check virtuals envs create in this method:
+
+	pyenv virtualenvs
+
+We can now activa a virtual env at any time:
+
+	pyenv activate <env_name>
+	pyenv deactivate
+
+We can also delete existing envs:
+
+	pyenv uninstall <env_name>G
+
+https://github.com/pyenv/pyenv-virtualenv
