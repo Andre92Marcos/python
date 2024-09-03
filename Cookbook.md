@@ -58,7 +58,10 @@
 
 	python -m http.server <server_port>
 
-	allows to then run things like wget to download files from the directory where the server was started
+		allows to then run things like wget to download files from the directory where the server was started
+
+	For windows
+	python -m http.server --bind 0.0.0.0 1234
 
 **Spawn a functional shell**
 
