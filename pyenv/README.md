@@ -18,3 +18,4 @@
 	pyenv local : check the current python local version
 	pyenv local <version> : set the <version> of python as local
 	pyenv local --unset: unset the local version of python
+	pyenv virtualenvs: list available envs
